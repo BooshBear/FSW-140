@@ -1,0 +1,27 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "connectString": "root@localhost:3306",
+            "name": "local",
+            "connectionTimeout": 28800
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 9009,
+            "driver": "PostgreSQL",
+            "name": "Postgre Local",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "BooshB3@r12"
+        }
+    ]
+}
