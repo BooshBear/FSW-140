@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3vh;
+    background-color: rgb(153, 153, 153);
+
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.navbar #Home {
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar #SignUps {
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: none;
+}
+header {
+    text-align: center;
+}
+#ListAvengers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+
+    margin: 30px;
+}
+.card {
+    border: 2px solid;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.signups {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+.signForm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    padding: 10px;
+    text-align: center;
+    min-height: 300px;
+    min-width: 300px;
+}
+.signForm #name {
+    text-align: center;
+}
+.signForm #traits {
+    text-align: center;
+}
